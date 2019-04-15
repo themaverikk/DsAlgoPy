@@ -8,7 +8,6 @@ Alien Language<br>
 Print a matrix spirally<br>
 Minimize cash flow among friends
 Petro pump problem<br>
-Shortest path in binary maze
-
-Maximum profit in stocks when maximum k transactions are allowed
+Shortest path in binary maze<br>
+Maximum profit in stocks when maximum k transactions are allowed<br>
 Word Break
