@@ -3,6 +3,7 @@ dictionary = {"mobile", "samsung", "sam", "sung", "man", "mango",
 
 dp = {}
 
+
 def matches(word):
     if word is None or len(word) == 0:
         return True
@@ -19,6 +20,7 @@ def matches(word):
 
     dp[word] = False
     return False
+
 
 print(matches("ilikesamsung"))
 print(matches(""))
