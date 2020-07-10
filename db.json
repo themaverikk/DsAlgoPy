@@ -2,10 +2,7 @@
    {
       "id":"age",
       "type":"text",
-      "question":"Age?",
-      "format":"integer",
-      "min":"16",
-      "max":"75"
+      "question":"Age?"
    },
    {
       "id":"experience",
