@@ -1,11 +1,5 @@
 [
    {
-      "id":"first_header",
-      "type":"information",
-      "text":"Following set of questions are example for Indeed Apply screener questions. This is <b>information</b> question type. <br>Links can be added this question type text.<br> Example: <a href=\"http://opensource.indeedeng.io/api-documentation/docs/xml-feed-ia/#screener_question_types\">visit documentation</a> page.",
-      "fontsize":8
-   },
-   {
       "id":"age",
       "type":"text",
       "question":"Age?",
@@ -31,16 +25,6 @@
             "label":"Female"
          }
       ]
-   },
-   {
-      "id":"notification_about_page_break",
-      "type":"information",
-      "text":"After this question should be page break.",
-      "fontsize":8
-   },
-   {
-      "id":"pagebreak1",
-      "type":"pagebreak"
    },
    {
       "id":"profile-atLeast18",
@@ -82,50 +66,5 @@
       "id":"experience",
       "type":"textarea",
       "question":"Describe your most rewarding work experience"
-   },
-   {
-      "id":"favoritecolors",
-      "type":"multiselect",
-      "question":"Select your two favorite colors:",
-      "options":[
-         {
-            "value":"0",
-            "label":"Maize"
-         },
-         {
-            "value":"1",
-            "label":"Blue"
-         },
-         {
-            "value":"2",
-            "label":"Green"
-         }
-      ]
-   },
-   {
-      "id":"pagebreak2",
-      "type":"pagebreak"
-   },
-   {
-      "id":"date_q",
-      "type":"date",
-      "question":"When you can start working?",
-      "format":"MM/dd/yyyy",
-      "min":"01/01/2018",
-      "max":"01/01/2025"
-   },
-   {
-      "id":"additional_pdf_documents",
-      "type":"file",
-      "question":"Please provide any additional documents for your application (pdf only, max 3 document).",
-      "format":"pdf",
-      "required":false,
-      "max":"3"
-   },
-   {
-      "id":"any_additional_documents",
-      "type":"file",
-      "question":"Please provide any additional documents for your application (Accepted file types are pdf, txt, docx, doc, html, htm, rtf, jpg, jpeg, jpe, jif, jfif, gif, png, tif and tiff.).",
-      "required":false
    }
 ]
