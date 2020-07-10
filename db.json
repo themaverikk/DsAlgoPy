@@ -1,0 +1,22 @@
+[{
+  "id": "city",
+  "type": "text",
+  "question": "What city are you located in?",
+  "required": true
+},
+{
+  "id":"age",
+  "type":"text",
+  "question":"Age?",
+  "format":"integer",
+  "min":"16",
+  "max":"75"
+},
+{
+  "id": "gpa",
+  "type": "text",
+  "format":"decimal",
+  "question": "What was your GPA?",
+  "required": true
+}
+]
