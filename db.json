@@ -8,61 +8,6 @@
       "max":"75"
    },
    {
-      "id":"gender",
-      "type":"select",
-      "question":"Gender?",
-      "options":[
-         {
-            "value":"0",
-            "label":"Decline to answer"
-         },
-         {
-            "value":"1",
-            "label":"Male"
-         },
-         {
-            "value":"2",
-            "label":"Female"
-         }
-      ]
-   },
-   {
-      "id":"profile-atLeast18",
-      "question":"Are you at least 18 years of age?",
-      "required":true,
-      "options":[
-         {
-            "value":"1",
-            "label":"Yes"
-         },
-         {
-            "value":"0",
-            "label":"No"
-         }
-      ],
-      "type":"select"
-   },
-   {
-      "id":"profile-permit",
-      "question":"Can you provide a work permit?",
-      "required":true,
-      "condition":{
-         "id":"profile-atLeast18",
-         "value":"0"
-      },
-      "options":[
-         {
-            "value":"1",
-            "label":"Yes"
-         },
-         {
-            "value":"0",
-            "label":"No"
-         }
-      ],
-      "type":"select"
-   },
-   {
       "id":"experience",
       "type":"textarea",
       "question":"Describe your most rewarding work experience"
