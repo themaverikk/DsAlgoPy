@@ -1,22 +1,14 @@
-[{
-  "id": "city",
-  "type": "text",
-  "question": "What city are you located in?",
-  "required": true
-},
 {
-  "id":"age",
-  "type":"text",
-  "question":"Age?",
-  "format":"integer",
-  "min":"16",
-  "max":"75"
-},
-{
-  "id": "gpa",
-  "type": "text",
-  "format":"decimal",
-  "question": "What was your GPA?",
-  "required": true
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
-]
